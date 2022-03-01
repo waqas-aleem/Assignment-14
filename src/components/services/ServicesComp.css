@@ -141,7 +141,8 @@ font-size: 24px;
 line-height: 28px; 
 color: #667299;
 border-left: 6px solid #F9995D;
-padding-left: 5px;
+margin-left: 15px;
+padding-left:10px;
 }
 .cardPosition1{
    position:absolute!important;
@@ -153,12 +154,11 @@ padding-left: 5px;
    top: -40px!important;
    right: 90px!important;
 }
-.cardPosition3{
-      position: absolute!important;
-      top: 68px!important;
-      right: 33px!important;
-      bottom: 68px;
-  
+.cardPosition3 {
+   position: absolute!important;
+   top: 68px!important;
+   right: 82px!important;
+   bottom: 68px;
 }
 @media only screen and (max-width:990px) 
 {
@@ -194,12 +194,17 @@ width: 100%;
 }
 .cardPosition2 {
    position: absolute!important;
-   top: 133px!important;
+   top: 185px!important;
    right: 2px!important;
-} 
+}
 .cardPosition3 {
    position: absolute!important;
-   top: 84px!important;
+   top: 105px!important;
+   right: 2px!important;
+}
+.cardPosition4 {
+   position: absolute!important;
+   top: 100px!important;
    right: 2px!important;
 }
 .hide{

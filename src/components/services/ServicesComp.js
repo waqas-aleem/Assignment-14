@@ -139,7 +139,7 @@ export default function ServicesComp() {
                             <div className="col-md-6  mb-5 w-50">
                                 <div className="expCard">
 
-                                    <img src={image1} alt="Image 1" className='cardPosition1 hide'  />
+                                    <img src={image1} alt="Image 1" className='cardPosition1 ' />
 
                                     <p className="card-title expCardHeading">123</p>
                                     <p className='expCardPara'> Projects Completed </p>
@@ -149,7 +149,7 @@ export default function ServicesComp() {
                             </div>
                             <div className="col-md-6 mb-5 w-50">
                                 <div className="expCard">
-                                    <img src={image2} alt="Image 2" className='cardPosition2 hide' />
+                                    <img src={image2} alt="Image 2" className='cardPosition2 ' />
                                     <p className="card-title expCardHeading">84</p>
                                     <p className='expCardPara'> Happy Clients</p>
 
@@ -159,21 +159,21 @@ export default function ServicesComp() {
                             </div>
 
                         </div>
-                        <div className="row mt-4">
+                        <div className="row mt-1">
 
 
-                            <div className="col-md-6 position-relative mb-5 w-50">
+                            <div className="col-md-6 mt-1 position-relative mb-5 w-50">
                                 <div className="expCard ">
-                                    <img src={image4} alt="Image 3" className='cardPosition2 cardPosition3 hide' />
+                                    <img src={image4} alt="Image 3" className='cardPosition2 cardPosition3 ' />
                                     <p className="card-title expCardHeading">30</p>
                                     <p className='expCardPara'> Years in Business </p>
 
 
                                 </div>
                             </div>
-                            <div className="col-md-6 position-relative mb-5 w-50">
+                            <div className="col-md-6 mt-2 position-relative mb-5 w-50">
                                 <div className="expCard ">
-                                    <img src={image3} alt="Image 4" className='cardPosition2 hide' />
+                                    <img src={image3} alt="Image 4" className='cardPosition2 cardPosition4 ' />
                                     <p className="card-title expCardHeading">37</p>
                                     <p className='expCardPara'> Awards Win </p>
 
